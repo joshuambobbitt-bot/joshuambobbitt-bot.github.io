@@ -47,6 +47,19 @@ nav {
     color: #F8F4F9;
     text-transform: uppercase;
 }
+nav .button {
+    background: #da9664;
+}
+nav .burger {
+    width: 15px;
+}
+@media (max-width: 60em) {
+    nav .burger~.menu, nav .show:checked~.burger {
+        background: #da9664;
+        max-width: 100%;
+        width: 100%;
+    }
+}
 
 /* FOOTER */
 footer {
